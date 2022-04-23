@@ -36,8 +36,8 @@ public class Unpacker
         string[] files = Directory.GetFiles(temproute);
         foreach (string file in files)
         {
-            // if (isJson(file)) IndentJsonFile(file);
-            // else if (isXML(file)) IndentXMLFile(file);
+            if (isJson(file)) IndentJsonFile(file);
+            else if (isXML(file)) IndentXMLFile(file);
         }
         string[] directories = Directory.GetDirectories(temproute);
         foreach( string dir in directories)
