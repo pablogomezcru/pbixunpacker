@@ -103,14 +103,14 @@ public class Unpacker
     }
 
     private static readonly string[] _JsonFormattedFiles = new string[] {
-      //"DiagramLayout",
-      //"Metadata",
-    //   "Settings",
-    //   "Layout"
+      "DiagramLayout",
+      "Metadata",
+      "Settings",
+      "Layout"
   };
 
     private static readonly string[] _XMLFormattedFiles = new string[] {
-    //  "[Content_Types].xml"
+     "[Content_Types].xml"
   };
 }
 
