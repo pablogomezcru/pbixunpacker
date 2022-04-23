@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yM49pHvgrX43DIMZPH7UrjzP15e8/FZdEkEVfQpwQydLegDdB0sZq9EHtrHVyLw7oMAND7fdJEAj6yoIctOTig==",
+  "dgSpecHash": "dWI1i7R8MlAmfqCHlPYki+/fmCTDFBBmpV48nUULaEDjfAdahSPNgeldkOJtddW7zel4gvyuPPpktup/p1cI9w==",
   "success": true,
-  "projectFilePath": "C:\\Devs\\pbixunpacker\\pbixunpacker\\src\\PBIXUnpacker\\PBIXUnpacker.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Devs\\pbixunpacker\\pbixunpacker\\src\\pbixunpacker\\PBIXUnpacker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pablo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

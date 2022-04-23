@@ -1,7 +1,7 @@
 ﻿using PBIXUnpacker;
 // See https://aka.ms/new-console-template for more information
-string pbixRoute = @"..\..\samples\pbix\sample.pbix";
-string outRoute = @"..\..\samples\pbix\";
+string pbixRoute = @"..\..\test\Versioned PBIX\sample.pbix";
 Unpacker u = new();
-u.UnpackPbix(pbixRoute: pbixRoute, outRoute: outRoute);
+u.UnpackPbix(pbixRoute: pbixRoute);
+// u.PackPbix(folderRoute: unpackedRoute, pbixRoute: rezipRoute);
 Console.WriteLine("END");

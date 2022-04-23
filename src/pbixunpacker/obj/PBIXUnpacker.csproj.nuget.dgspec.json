@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Devs\\pbixunpacker\\pbixunpacker\\src\\PBIXUnpacker\\PBIXUnpacker.csproj": {}
+    "C:\\Devs\\pbixunpacker\\pbixunpacker\\src\\pbixunpacker\\PBIXUnpacker.csproj": {}
   },
   "projects": {
-    "C:\\Devs\\pbixunpacker\\pbixunpacker\\src\\PBIXUnpacker\\PBIXUnpacker.csproj": {
+    "C:\\Devs\\pbixunpacker\\pbixunpacker\\src\\pbixunpacker\\PBIXUnpacker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Devs\\pbixunpacker\\pbixunpacker\\src\\PBIXUnpacker\\PBIXUnpacker.csproj",
+        "projectUniqueName": "C:\\Devs\\pbixunpacker\\pbixunpacker\\src\\pbixunpacker\\PBIXUnpacker.csproj",
         "projectName": "PBIXUnpacker",
-        "projectPath": "C:\\Devs\\pbixunpacker\\pbixunpacker\\src\\PBIXUnpacker\\PBIXUnpacker.csproj",
+        "projectPath": "C:\\Devs\\pbixunpacker\\pbixunpacker\\src\\pbixunpacker\\PBIXUnpacker.csproj",
         "packagesPath": "C:\\Users\\pablo\\.nuget\\packages\\",
-        "outputPath": "C:\\Devs\\pbixunpacker\\pbixunpacker\\src\\PBIXUnpacker\\obj\\",
+        "outputPath": "C:\\Devs\\pbixunpacker\\pbixunpacker\\src\\pbixunpacker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
